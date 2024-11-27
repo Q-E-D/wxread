@@ -29,8 +29,6 @@ data = json.loads(json.dumps(eval(env_data))) if env_data else local_data
 number = int(env_num) if env_num not in (None, '') else 120
 
 
-
-
 def encode_data(data):
     return '&'.join(f"{k}={urllib.parse.quote(str(data[k]), safe='')}" for k in sorted(data.keys()))
 
@@ -58,35 +56,39 @@ def get_wr_skey():
     return None
 
 
-index = 1
-while index <= number:
-    data['ct'] = int(time.time())
-    data['ts'] = int(time.time() * 1000)
-    data['rn'] = random.randint(0, 1000)
-    data['sg'] = hashlib.sha256(f"{data['ts']}{data['rn']}{KEY}".encode()).hexdigest()
-    data['s'] = cal_hash(encode_data(data))
+def read(data):
+    index = 1
+    while index <= number:
+        data['ct'] = int(time.time())
+        data['ts'] = int(time.time() * 1000)
+        data['rn'] = random.randint(0, 1000)
+        data['sg'] = hashlib.sha256(f"{data['ts']}{data['rn']}{KEY}".encode()).hexdigest()
+        data['s'] = cal_hash(encode_data(data))
 
-    print(f"\n尝试第 {index} 次阅读...")
-    response = requests.post(READ_URL, headers=headers, cookies=cookies, data=json.dumps(data, separators=(',', ':')))
-    resData = response.json()
-    print(resData)
+        print(f"\n尝试第 {index} 次阅读...")
+        response = requests.post(READ_URL, headers=headers, cookies=cookies, data=json.dumps(data, separators=(',', ':')))
+        resData = response.json()
+        print(resData)
 
-    if 'succ' in resData:
-        index += 1
-        time.sleep(30)
-        print(f"✅ 阅读成功，阅读进度：{index * 0.5} 分钟")
+        if 'succ' in resData:
+            index += 1
+            time.sleep(30)
+            print(f"✅ 阅读成功，阅读进度：{index * 0.5} 分钟")
 
-    else:
-        print("❌ cookie 已过期，尝试刷新...")
-        new_skey = get_wr_skey()
-        if new_skey:
-            cookies['wr_skey'] = new_skey
-            print(f"✅ 密钥刷新成功，新密钥：{new_skey}\n🔄 重新本次阅读。")
         else:
-            print("⚠ 无法获取新密钥，终止运行。")
-            break
+            print("❌ cookie 已过期，尝试刷新...")
+            new_skey = get_wr_skey()
+            if new_skey:
+                cookies['wr_skey'] = new_skey
+                print(f"✅ 密钥刷新成功，新密钥：{new_skey}\n🔄 重新本次阅读。")
+            else:
+                print("⚠ 无法获取新密钥，终止运行。")
+                break
 
-    data.pop('s')
+        data.pop('s')
+
+for book in data:
+    read(book)
 
 print("🎉 阅读脚本已完成！")
 if env_method not in (None, ''):
