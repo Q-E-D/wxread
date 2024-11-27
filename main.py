@@ -21,10 +21,15 @@ env_headers = os.getenv('WXREAD_HEADERS')
 env_cookies = os.getenv('WXREAD_COOKIES')
 env_num = os.getenv('READ_NUM')
 env_method = os.getenv('PUSH_METHOD')
+env_book = os.getenv('WXREAD_BOOK')
+env_content = os.getenv('WXREAD_CONTENT')
 
 headers = json.loads(json.dumps(eval(env_headers))) if env_headers else local_headers
 cookies = json.loads(json.dumps(eval(env_cookies))) if env_cookies else local_cookies
 number = int(env_num) if env_num not in (None, '') else 120
+data['b'] = env_book if env_book else data['b']
+data['c'] = env_book if env_content else data['c']
+
 
 
 def encode_data(data):
