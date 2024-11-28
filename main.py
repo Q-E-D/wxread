@@ -42,7 +42,7 @@ def cal_hash(input_string):
     return hex(_7032f5 + _cc1055)[2:].lower()
 
 
-def get_wr_skey():
+def get_wr_skey(headers, cookies):
     response = requests.post(RENEW_URL, headers=headers, cookies=cookies,
                              data=json.dumps(COOKIE_DATA, separators=(',', ':')))
     for cookie in response.headers.get('Set-Cookie', '').split(';'):
@@ -75,7 +75,7 @@ def read(book):
 
         else:
             print("❌ cookie 已过期，尝试刷新...")
-            new_skey = get_wr_skey()
+            new_skey = get_wr_skey(headers, cookies)
             if new_skey:
                 cookies['wr_skey'] = new_skey
                 print(f"✅ 密钥刷新成功，新密钥：{new_skey}\n🔄 重新本次阅读。")
