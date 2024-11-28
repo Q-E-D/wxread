@@ -1,5 +1,6 @@
 {
-    "enable": true,
+    "name": "简爱",
+    "enable": false,
     "cookies": {
         "wr_gid": "281672629",
         "wr_fp": "3457727396",
