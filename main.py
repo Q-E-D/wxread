@@ -17,15 +17,10 @@ COOKIE_DATA = {"rq": "%2Fweb%2Fbook%2Fread"}
 # github action部署用
 # 从环境变量获取 headers、cookies等值(如果不存在使用默认本地值)
 # 每一次代表30秒，比如你想刷1个小时这里填120，你只需要签到这里填2次
-env_headers = os.getenv('WXREAD_HEADERS')
-env_cookies = os.getenv('WXREAD_COOKIES')
+
 env_num = os.getenv('READ_NUM')
 env_method = os.getenv('PUSH_METHOD')
-env_data = os.getenv('WXREAD_DATA')
 
-headers = json.loads(json.dumps(eval(env_headers))) if env_headers else local_headers
-cookies = json.loads(json.dumps(eval(env_cookies))) if env_cookies else local_cookies
-data = json.loads(json.dumps(eval(env_data))) if env_data else local_data
 number = int(env_num) if env_num not in (None, '') else 120
 
 
@@ -56,7 +51,10 @@ def get_wr_skey():
     return None
 
 
-def read(data):
+def read(book):
+    headers = book['headers']
+    cookies = book['cookies']
+    data = book['data']
     index = 1
     while index <= number:
         data['ct'] = int(time.time())
@@ -87,9 +85,9 @@ def read(data):
 
         data.pop('s')
 
-for book in data:
-    read(book)
+for filename in os.listdir("books"):
+    with open(os.path.join('books/', filename), 'r') as f:
+        book = json.load(f)
+        read(book)
 
 print("🎉 阅读脚本已完成！")
-if env_method not in (None, ''):
-    push("阅读脚本已完成！", env_method)
