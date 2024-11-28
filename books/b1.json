@@ -1,0 +1,48 @@
+{
+    "cookies": {
+        "wr_gid": "281672629",
+        "wr_fp": "3457727396",
+        "wr_vid": "912985107",
+        "wr_rt": "web%40jZ76Eh7o7oW2XGoCpDQ_AL",
+        "wr_localvid": "37032e208366b0c13370fd1",
+        "wr_name": "%E5%BE%AE%E4%BF%A1%E7%94%A8%E6%88%B7",
+        "wr_avatar": "https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPOgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg%2F132",
+        "wr_gender": "0",
+        "wr_pf": "NaN",
+        "wr_skey": "mjgaXp3w"
+    },
+    "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=546e16103017410a9ad526a92dea9912",
+        "cache-control": "no-cache",
+        "content-type": "application/json;charset=UTF-8",
+        "cookie": "wr_gid=281672629; wr_fp=3457727396; wr_vid=912985107; wr_rt=web%40jZ76Eh7o7oW2XGoCpDQ_AL; wr_localvid=37032e208366b0c13370fd1; wr_name=%E5%BE%AE%E4%BF%A1%E7%94%A8%E6%88%B7; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPOgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg%2F132; wr_gender=0; wr_pf=NaN; wr_skey=mjgaXp3w",
+        "dnt": "1",
+        "origin": "https://weread.qq.com",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": "https://weread.qq.com/web/reader/19432be0813ab954bg011f7c",
+        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sentry-trace": "546e16103017410a9ad526a92dea9912-98e2b3eca4eeab6a",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    },
+    "data": {
+        "appId": "wb115321887466h497189850",
+        "b": "19432be0813ab954bg011f7c",
+        "c": "ecc32f3013eccbc87e4b62e",
+        "ci": 3,
+        "co": 1411,
+        "sm": "足有三米高的巨浪一波波如山崩般拍击着船身",
+        "pr": 0,
+        "ct": 1732776237,
+        "ps": "0a232c607a5401b7g014b0f",
+        "pc": "c34325c07a5401b7g015eaa",
+        "s": "5a0eaed8"
+    }
+}
