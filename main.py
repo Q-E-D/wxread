@@ -53,6 +53,7 @@ def get_wr_skey(headers, cookies):
 
 def read(book):
     headers = book['headers']
+    del headers['cookie']
     cookies = book['cookies']
     data = book['data']
     index = 1
