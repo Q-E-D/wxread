@@ -1,0 +1,52 @@
+{
+    "cookies": {
+        "wr_gid": "281672629",
+        "wr_fp": "3457727396",
+        "wr_vid": "912985107",
+        "wr_rt": "web%40jZ76Eh7o7oW2XGoCpDQ_AL",
+        "wr_localvid": "37032e208366b0c13370fd1",
+        "wr_name": "%E5%BE%AE%E4%BF%A1%E7%94%A8%E6%88%B7",
+        "wr_avatar": "https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPOgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg%2F132",
+        "wr_gender": "0",
+        "wr_pf": "NaN",
+        "wr_skey": "mjgaXp3w"
+    },
+    "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=40583b16d8f54d539d11a2f582081f09",
+        "cache-control": "no-cache",
+        "content-type": "application/json;charset=UTF-8",
+        "cookie": "wr_gid=281672629; wr_fp=3457727396; wr_vid=912985107; wr_rt=web%40jZ76Eh7o7oW2XGoCpDQ_AL; wr_localvid=37032e208366b0c13370fd1; wr_name=%E5%BE%AE%E4%BF%A1%E7%94%A8%E6%88%B7; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPOgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg%2F132; wr_gender=0; wr_pf=NaN; wr_skey=mjgaXp3w",
+        "dnt": "1",
+        "origin": "https://weread.qq.com",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": "https://weread.qq.com/web/reader/3d832100813ab952dg011b6c",
+        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sentry-trace": "40583b16d8f54d539d11a2f582081f09-91c7fa76d821904b",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    },
+    "data": {
+        "appId": "wb115321887466h497189850",
+        "b": "3d832100813ab952dg011b6c",
+        "c": "ecc32f3013eccbc87e4b62e",
+        "ci": 3,
+        "co": 1028,
+        "sm": "诺一起录播客的夏天；走出舒适的北京、独自",
+        "pr": 0,
+        "rt": 30,
+        "ts": 1732776309164,
+        "rn": 474,
+        "sg": "39ac09a4f32f09f7d601b59ee3c99c4af8f6139de5453349fc7e36a247c1fb01",
+        "ct": 1732776309,
+        "ps": "2fa325307a5401bbg015af5",
+        "pc": "ae532ce07a5401bbg0183b7",
+        "s": "96211fba"
+    }
+}
