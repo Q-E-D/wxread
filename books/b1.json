@@ -35,16 +35,20 @@
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     },
     "data": {
-        "appId": "wb115321887466h497189850",
-        "b": "19432be0813ab954bg011f7c",
-        "c": "ecc32f3013eccbc87e4b62e",
-        "ci": 3,
-        "co": 1411,
-        "sm": "足有三米高的巨浪一波波如山崩般拍击着船身",
-        "pr": 0,
-        "ct": 1732776237,
-        "ps": "0a232c607a5401b7g014b0f",
-        "pc": "c34325c07a5401b7g015eaa",
-        "s": "5a0eaed8"
+      "appId": "wb115321887466h497189850",
+      "b": "19432be0813ab954bg011f7c",
+      "c": "ecc32f3013eccbc87e4b62e",
+      "ci": 3,
+      "co": 570,
+      "sm": "[插图]第一章[插图]梦　魇",
+      "pr": 0,
+      "rt": 30,
+      "ts": 1732794430375,
+      "rn": 48,
+      "sg": "752ed07215ce7f55e6fa27306ab40546c7a027b3f6d89d6a8dcc6fba2217f25b",
+      "ct": 1732794430,
+      "ps": "77f320307a5408ccg0162b9",
+      "pc": "18a32f107a5408ccg018fdd",
+      "s": "52918e42"
     }
 }
