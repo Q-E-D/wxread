@@ -52,6 +52,8 @@ def get_wr_skey(headers, cookies):
 
 
 def read(book):
+    if not book.get('enable'):
+        return None
     headers = book['headers']
     del headers['cookie']
     cookies = book['cookies']
