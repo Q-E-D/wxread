@@ -16,25 +16,25 @@
         "wr_name": "%F0%9F%A7%B5%F0%9F%90%9F",
         "wr_avatar": "https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132",
         "wr_gender": "1",
-        "wr_skey": "K4POAmyW"
+        "wr_skey": "D0bdXI77"
     },
     "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=82233aad46e44e0d9bf47e65a8901318",
+        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=c7b14d0549034f1690056a14cf69cdc9",
         "content-type": "application/json;charset=UTF-8",
-        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_gid=275676149; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; skey=@S53t9sxWA; uin=o378180246; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; wr_skey=K4POAmyW",
+        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_gid=275676149; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; skey=@S53t9sxWA; uin=o378180246; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; wr_skey=D0bdXI77",
         "dnt": "1",
         "origin": "https://weread.qq.com",
         "priority": "u=1, i",
-        "referer": "https://weread.qq.com/web/reader/cdf32470813ab9597g018c58ka87322c014a87ff679a21ea",
+        "referer": "https://weread.qq.com/web/reader/cdf32470813ab9597g018c58",
         "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": "\"macOS\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "sentry-trace": "82233aad46e44e0d9bf47e65a8901318-a4afa45a42b9374b",
+        "sentry-trace": "c7b14d0549034f1690056a14cf69cdc9-88e7613249ca6eaa",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     },
     "data": {
@@ -45,13 +45,9 @@
         "co": 354,
         "sm": "三公宝刀东汉末年，中原战乱，王祥扶持着继",
         "pr": 0,
-        "rt": 2,
-        "ts": 1733131706057,
-        "rn": 98,
-        "sg": "11ed0609c5e6809f9e8e8fe9f2bd5d9cced4cffa95d16e67e1429ae0c00c6c1a",
-        "ct": 1733131706,
-        "ps": "098328a07a548c92g012b0c",
-        "pc": "098328a07a548c92g012b0c",
-        "s": "612ec768"
+        "ct": 1733137987,
+        "ps": "12432f507a548f06g014689",
+        "pc": "592321c07a548f06g0152d3",
+        "s": "18f8d9f2"
     }
 }
