@@ -67,7 +67,7 @@ def read(book):
         del data['s']
         data['s'] = cal_hash(encode_data(data))
 
-        print(f"\n尝试第 {index} 次阅读...")
+        print(f"\n尝试第 {index} 次阅读 {book['name']} ...")
         response = requests.post(READ_URL, headers=headers, cookies=cookies, data=json.dumps(data, separators=(',', ':')))
         resData = response.json()
         print(resData)
@@ -87,7 +87,6 @@ def read(book):
                 print("⚠ 无法获取新密钥，终止运行。")
                 break
 
-        data.pop('s')
 
 for filename in os.listdir("books"):
     with open(os.path.join('books/', filename), 'r') as f:
