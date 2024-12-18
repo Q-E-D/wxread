@@ -64,6 +64,7 @@ def read(book):
         data['ts'] = int(time.time() * 1000)
         data['rn'] = random.randint(0, 1000)
         data['sg'] = hashlib.sha256(f"{data['ts']}{data['rn']}{KEY}".encode()).hexdigest()
+        del data['s']
         data['s'] = cal_hash(encode_data(data))
 
         print(f"\n尝试第 {index} 次阅读...")
