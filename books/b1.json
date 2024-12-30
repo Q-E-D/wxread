@@ -1,5 +1,5 @@
 {
-    "name": "新世界",
+    "name": "寺庙",
     "enable": true,
     "cookies": {
         "pgv_pvid": "2121759970",
@@ -24,42 +24,43 @@
         "skey": "@TmCuPv2oM",
         "uin": "o378180246",
         "wr_gid": "237314473",
-        "wr_skey": "lyxpdsqL"
+        "wr_theme": "dark",
+        "wr_skey": "e08Bor9c"
     },
     "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=6f7abe92e57b4fabb6bf460af9637c54",
+        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=c6e0ea4e4a5e4f3fa4290b1548b91080",
         "content-type": "application/json;charset=UTF-8",
-        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; pac_uid=0_KB8NkfW1mYySB; suid=user_0_KB8NkfW1mYySB; _qimei_uuid42=18c0614320e100a3ffbafad10d5b53e58d029a3b92; _qimei_h38=e9633466ffbafad10d5b53e503000007818c06; _qimei_q36=; qq_domain_video_guid_verify=7f8eb9fa1701106e; _qimei_fingerprint=eaea78a2bfc084a23596802c9eea1e17; eas_sid=S19793j4z1e5U51674p4G34070; skey=@TmCuPv2oM; uin=o378180246; wr_gid=237314473; wr_skey=lyxpdsqL",
+        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; pac_uid=0_KB8NkfW1mYySB; suid=user_0_KB8NkfW1mYySB; _qimei_uuid42=18c0614320e100a3ffbafad10d5b53e58d029a3b92; _qimei_h38=e9633466ffbafad10d5b53e503000007818c06; _qimei_q36=; qq_domain_video_guid_verify=7f8eb9fa1701106e; _qimei_fingerprint=eaea78a2bfc084a23596802c9eea1e17; eas_sid=S19793j4z1e5U51674p4G34070; skey=@TmCuPv2oM; uin=o378180246; wr_gid=237314473; wr_theme=dark; wr_skey=e08Bor9c",
         "dnt": "1",
         "origin": "https://weread.qq.com",
         "priority": "u=1, i",
-        "referer": "https://weread.qq.com/web/reader/35d32ec07275fd7435d1172kecc32f3013eccbc87e4b62e",
+        "referer": "https://weread.qq.com/web/reader/a8132ad0813ab979cg015ab8ke4d32d5015e4da3b7fbb1fa",
         "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": "\"macOS\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "sentry-trace": "6f7abe92e57b4fabb6bf460af9637c54-96256c8a2faf0683",
+        "sentry-trace": "c6e0ea4e4a5e4f3fa4290b1548b91080-949b0702abf9ddb8",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     },
     "data": {
         "appId": "wb115321887466h497189850",
-        "b": "35d32ec07275fd7435d1172",
-        "c": "ecc32f3013eccbc87e4b62e",
-        "ci": 3,
-        "co": 452,
-        "sm": "第一章这是一幢低矮的灰色大楼，只有三十四",
+        "b": "a8132ad0813ab979cg015ab8",
+        "c": "e4d32d5015e4da3b7fbb1fa",
+        "ci": 6,
+        "co": 339,
+        "sm": "1幺师父说，人生最后的境地无非五个字——",
         "pr": 0,
-        "rt": 2,
-        "ts": 1734958038095,
-        "rn": 222,
-        "sg": "713fc0a05b5c5e4d295133dfbfabdf245d6156b875aac763b3be4f1eaae22abd",
-        "ct": 1734958038,
-        "ps": "56332e807a5755f5g013571",
-        "pc": "70f32c107a5755f5g0149be",
-        "s": "5f03147e"
+        "rt": 6,
+        "ts": 1735541571910,
+        "rn": 82,
+        "sg": "f972d7bf62e1037f720e63f3c24fc7311c864bcac8d90b65e8067cae3cc16f40",
+        "ct": 1735541571,
+        "ps": "6c832f907a5839ebg010760",
+        "pc": "3bf326c07a5839ebg0117b2",
+        "s": "9d4b0954"
     }
 }
