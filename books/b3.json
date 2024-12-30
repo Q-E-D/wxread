@@ -1,5 +1,5 @@
 {
-    "name": "长安",
+    "name": "国富",
     "enable": true,
     "cookies": {
         "pgv_pvid": "2121759970",
@@ -24,42 +24,43 @@
         "skey": "@TmCuPv2oM",
         "uin": "o378180246",
         "wr_gid": "237314473",
-        "wr_skey": "lyxpdsqL"
+        "wr_theme": "dark",
+        "wr_skey": "e08Bor9c"
     },
     "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=ba1917d1cf244a6694f9f79001125886",
+        "baggage": "sentry-environment=production,sentry-release=dev-1730698697208,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=a52a0cf7458b41fe8279b3a5f98a6efc",
         "content-type": "application/json;charset=UTF-8",
-        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; pac_uid=0_KB8NkfW1mYySB; suid=user_0_KB8NkfW1mYySB; _qimei_uuid42=18c0614320e100a3ffbafad10d5b53e58d029a3b92; _qimei_h38=e9633466ffbafad10d5b53e503000007818c06; _qimei_q36=; qq_domain_video_guid_verify=7f8eb9fa1701106e; _qimei_fingerprint=eaea78a2bfc084a23596802c9eea1e17; eas_sid=S19793j4z1e5U51674p4G34070; skey=@TmCuPv2oM; uin=o378180246; wr_gid=237314473; wr_skey=lyxpdsqL",
+        "cookie": "pgv_pvid=2121759970; RK=YDvxmM7WFP; ptcz=ad17d9d2420cd15425d9737815187a254134477f6febe5578601fb9f60a3088d; wr_vid=19808000; wr_rt=web%40R0fz3eLcz~HI8fCYUtj_AL; wr_localvid=a7332370712e3f00a737b67; wr_pf=NaN; wr_fp=309367836; wr_name=%F0%9F%A7%B5%F0%9F%90%9F; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83epkltnImwmLNIoQx4BSjicic0BBaUd8QUia5kwmuoI0cQodFOLj66vOMPbnawyL6kIBvSHriaibic5Yfgqw%2F132; wr_gender=1; pac_uid=0_KB8NkfW1mYySB; suid=user_0_KB8NkfW1mYySB; _qimei_uuid42=18c0614320e100a3ffbafad10d5b53e58d029a3b92; _qimei_h38=e9633466ffbafad10d5b53e503000007818c06; _qimei_q36=; qq_domain_video_guid_verify=7f8eb9fa1701106e; _qimei_fingerprint=eaea78a2bfc084a23596802c9eea1e17; eas_sid=S19793j4z1e5U51674p4G34070; skey=@TmCuPv2oM; uin=o378180246; wr_gid=237314473; wr_theme=dark; wr_skey=e08Bor9c",
         "dnt": "1",
         "origin": "https://weread.qq.com",
         "priority": "u=1, i",
-        "referer": "https://weread.qq.com/web/reader/49232380813ab9707g014133k65b326f026965b9eea6e6e1",
+        "referer": "https://weread.qq.com/web/reader/6c4324d059eee96c43a4b3eka87322c014a87ff679a21ea",
         "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": "\"macOS\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "sentry-trace": "ba1917d1cf244a6694f9f79001125886-a4447a2d4c9d5f69",
+        "sentry-trace": "a52a0cf7458b41fe8279b3a5f98a6efc-9992174e13ad469c",
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     },
     "data": {
         "appId": "wb115321887466h497189850",
-        "b": "49232380813ab9707g014133",
-        "c": "65b326f026965b9eea6e6e1",
+        "b": "6c4324d059eee96c43a4b3e",
+        "c": "a87322c014a87ff679a21ea",
         "ci": 4,
-        "co": 362,
-        "sm": "第一章比试“那剥皮换脸的恶鬼名叫十方恶鬼",
+        "co": 355,
+        "sm": "分工的起源分工虽然有这么多的好处，但是这",
         "pr": 0,
-        "rt": 4,
-        "ts": 1734958143783,
-        "rn": 122,
-        "sg": "955e158dda526406871dee19072aaa9a6b7aa61e8d9e6604db5a9acbdeb3773f",
-        "ct": 1734958143,
-        "ps": "1c7323707a575605g017436",
-        "pc": "3f5324507a575605g018f20",
-        "s": "3c0cd5e1"
+        "rt": 3,
+        "ts": 1735541765810,
+        "rn": 409,
+        "sg": "a0f4bf73d46d0d6a9eb926712cd9d70c9af84445e85939671a191e7057037f7f",
+        "ct": 1735541765,
+        "ps": "e9332ea07a583a00g010f2c",
+        "pc": "b96327407a583a00g011d1f",
+        "s": "67e75bc2"
     }
 }
