@@ -21,7 +21,7 @@ COOKIE_DATA = {"rq": "%2Fweb%2Fbook%2Fread"}
 env_num = os.getenv('READ_NUM')
 env_method = os.getenv('PUSH_METHOD')
 
-number = int(env_num) if env_num not in (None, '') else 80
+number = int(env_num) if env_num not in (None, '') else 120
 
 
 def encode_data(data):
